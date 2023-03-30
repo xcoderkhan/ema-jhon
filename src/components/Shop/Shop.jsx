@@ -33,6 +33,8 @@ const Shop = () => {
             }
         }
 
+        setCart(saveCart);
+
     }, [products])
 
     const handleAddToCard = (product) => {
